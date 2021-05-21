@@ -42,7 +42,7 @@ body {
 }
 
 .header .header-main .header-main-buttons {
-  width: 322px;
+  width: 320px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -249,9 +249,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   height: 100px;
 }
 
@@ -373,6 +373,50 @@ body {
   }
   .header .header-main .header-main-title {
     font-size: 40px;
+  }
+  .header .header-main .header-main-buttons {
+    width: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 70px;
+  }
+  .header .header-main .header-main-buttons .header-main-buttons-about {
+    width: 90px;
+    height: 49px;
+    border-radius: 8px;
+    background-color: #fdb827;
+    border: none;
+    outline: none;
+  }
+  .header .header-main .header-main-buttons .header-main-buttons-about .header-main-buttons-about-link {
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+  }
+  .header .header-main .header-main-buttons .header-main-buttons-portfolio {
+    width: 190px;
+    height: 49px;
+    border-radius: 8px;
+    background-color: #212121;
+    border: none;
+    outline: none;
+  }
+  .header .header-main .header-main-buttons .header-main-buttons-portfolio .header-main-buttons-portfolio-link {
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
   }
   .technologies {
     margin-bottom: 180px;

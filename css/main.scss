@@ -37,7 +37,7 @@ body {
 			margin-bottom: 30px;
 		}
 		.header-main-buttons {
-			width: 322px;
+			width: 320px;
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
@@ -199,7 +199,7 @@ body {
 .footer {
 	display: flex;
 	align-items: center;
-	justify-content: flex-end;
+	justify-content: flex-start;
 	height: 100px;
 	.footer-text {
 		font-size: 14px;
@@ -308,6 +308,44 @@ body {
 		.header-main {
 			.header-main-title {
 				font-size: 40px;
+			}
+			.header-main-buttons {
+				width: 300px;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				margin: 0 auto;
+				margin-bottom: 70px;
+				.header-main-buttons-about {
+					width: 90px;
+					height: 49px;
+					border-radius: 8px;
+					background-color: #fdb827;
+					border: none;
+					outline: none;
+					.header-main-buttons-about-link {
+						color: #000;
+						font-weight: bold;
+						font-size: 16px;
+						font-family: 'Inter', sans-serif;
+						text-decoration: none;
+					}
+				}
+				.header-main-buttons-portfolio {
+					width: 190px;
+					height: 49px;
+					border-radius: 8px;
+					background-color: #212121;
+					border: none;
+					outline: none;
+					.header-main-buttons-portfolio-link {
+						color: #fff;
+						font-weight: bold;
+						font-size: 16px;
+						font-family: 'Inter', sans-serif;
+						text-decoration: none;
+					}
+				}
 			}
 		}
 	}
