@@ -42,7 +42,7 @@ body {
 }
 
 .header .header-main .header-main-buttons {
-  width: 320px;
+  width: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -57,7 +57,7 @@ body {
 }
 
 .header .header-main .header-main-buttons .header-main-buttons-about {
-  width: 113px;
+  width: 130px;
   height: 49px;
   border-radius: 8px;
   background-color: #fdb827;
@@ -74,7 +74,7 @@ body {
 }
 
 .header .header-main .header-main-buttons .header-main-buttons-portfolio {
-  width: 198px;
+  width: 150px;
   height: 49px;
   border-radius: 8px;
   background-color: #212121;
@@ -389,7 +389,7 @@ body {
     margin-bottom: 70px;
   }
   .header .header-main .header-main-buttons .header-main-buttons-about {
-    width: 90px;
+    width: 130px;
     height: 49px;
     border-radius: 8px;
     background-color: #fdb827;
@@ -404,7 +404,7 @@ body {
     text-decoration: none;
   }
   .header .header-main .header-main-buttons .header-main-buttons-portfolio {
-    width: 190px;
+    width: 150px;
     height: 49px;
     border-radius: 8px;
     background-color: #212121;
