@@ -161,7 +161,7 @@ body {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		margin-bottom: 50px;
+		flex-wrap: wrap;
 		.portfolio-row-item {
 			width: 300px;
 			height: 300px;
@@ -171,13 +171,14 @@ body {
 			background-color: #212121;
 			overflow: hidden;
 			text-align: center;
+			margin-bottom: 50px;
 			.portfolio-row-item-link {
 				text-decoration: none;
 				color: #fff;
 				.portfolio-row-item-img {
 					width: 300px;
 					margin: 0;
-					margin-bottom: 20px;
+					margin-bottom: 0px;
 				}
 				.portfolio-row-item-title {
 					text-align: center;
@@ -233,7 +234,7 @@ body {
 					.portfolio-row-item-img {
 						width: 600px;
 						margin: 0;
-						margin-bottom: 50px;
+						margin-bottom: 0;
 					}
 					.portfolio-row-item-title {
 						text-align: center;
@@ -280,7 +281,7 @@ body {
 					.portfolio-row-item-img {
 						width: 400px;
 						margin: 0;
-						margin-bottom: 30px;
+						margin-bottom: 0;
 					}
 					.portfolio-row-item-title {
 						text-align: center;
@@ -428,7 +429,7 @@ body {
 					.portfolio-row-item-img {
 						width: 300px;
 						margin: 0;
-						margin-bottom: 20px;
+						margin-bottom: 0;
 					}
 					.portfolio-row-item-title {
 						text-align: center;
@@ -581,7 +582,7 @@ body {
 					.portfolio-row-item-img {
 						width: 200px;
 						margin: 0;
-						margin-bottom: 10px;
+						margin-bottom: 0;
 					}
 					.portfolio-row-item-title {
 						text-align: center;
