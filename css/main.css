@@ -104,7 +104,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 150px;
+  width: 110px;
   margin: 0 auto;
 }
 
